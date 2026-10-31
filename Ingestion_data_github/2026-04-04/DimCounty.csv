@@ -1,0 +1,11 @@
+county_id,county_name,region,country,population_band,urban_rural
+1,Kent,South East,England,Large,Urban
+2,Essex,East,England,Large,Mixed
+3,Surrey,South East,England,Large,Urban
+4,Yorkshire,North,England,Very Large,Mixed
+5,Lancashire,North West,England,Large,Mixed
+6,Devon,South West,England,Medium,Rural
+7,Cornwall,South West,England,Medium,Rural
+8,Hampshire,South East,England,Large,Mixed
+9,Staffordshire,West Midlands,England,Medium,Mixed
+10,Norfolk,East,England,Medium,Rural

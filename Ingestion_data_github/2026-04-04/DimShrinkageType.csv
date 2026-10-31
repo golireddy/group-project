@@ -1,0 +1,6 @@
+shrinkage_type_id,shrinkage_type,category,is_paid,is_planned
+1,Annual Leave,Leave,Y,Y
+2,Sickness,Leave,Y,N
+3,Training,Development,Y,Y
+4,Team Meeting,Meeting,Y,Y
+5,System Outage,Operational,Y,N
