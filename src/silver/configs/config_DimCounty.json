@@ -1,0 +1,38 @@
+
+{
+    "source": {
+        "source_table": "group_project.bronze.dim_county",
+        "source_name": "dim_county"
+    },
+
+    "target": {
+        "target_table": "group_project.silver.dim_county"
+    },
+
+    "cast_columns": {
+        "county_id": "int",
+        "county_name": "string",
+        "region": "string",
+        "country": "string",
+        "population_band": "string",
+        "urban_rural": "string"
+    },
+
+    "drop_columns": [
+        "source_file",
+        "current_timestamp"
+    ],
+
+    "rename_column": {
+        "urban_rural": "area_type"
+    },
+
+    "select_columns": [
+        "county_id",
+        "county_name",
+        "region",
+        "country",
+        "population_band",
+        "area_type"
+    ]
+}
