@@ -1,0 +1,21 @@
+{
+    "source": {
+        "base_path": "/Volumes/group_project/bronze/raw_files",
+        "load_date": "2026-04-01"
+    },
+
+    "target": {
+        "catalog": "group_project",
+        "schema": "bronze"
+    },
+
+    "sources": {
+        "DimCancellationReason.csv": "dim_cancel",
+        "DimCounty.csv": "dim_county",
+        "DimPeople.csv": "dim_people",
+        "DimShrinkageType.csv": "dim_shrinkage_type",
+        "FactWork_01_04_2026.csv": "fact_work",
+        "FactShift_01_04_2026.csv": "fact_shift",
+        "FactShrinkage_01_04_2026.csv": "fact_shrinkage"
+    }
+}
