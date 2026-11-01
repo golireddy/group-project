@@ -1,0 +1,16 @@
+{
+    "source" : {
+        "name":"GitHub DB",
+        "source_path": "/Workspace/Users/weedi8145@gmail.com/group-project/Ingestion_data_github/2026-04-01"
+    },
+    
+
+    "target" : {
+      "volume_path" : "/Volumes/group_project/bronze/raw_files"
+    },
+    "load_options" : {
+
+       "load_date" : "2026-04-01"
+    }
+
+}
