@@ -1,3 +1,37 @@
+
 {
-  
+    "source": {
+        "source_table": "group_project.bronze.fact_shrinkage",
+        "source_name": "fact_work"
+    },
+
+    "target": {
+        "target_table": "group_project.silver.fact_shrinkage"
+    },
+
+    "cast_columns": {
+        "shrinkage_id": "int",
+        "people_id": "int",
+        "shrinkage_type_id": "int",
+        "start_datetime" : "timestamp",
+        "end_datetime" : "timestamp"
+    },
+
+
+    "rename_column": {
+        "start_datetime": "starting_time",
+        "end_datetime" : "ending_time"
+    },
+
+    "select_columns": [
+        "shrinkage_id",
+        "people_id",
+        "shrinkage_type_id",
+        "starting_time",
+        "ending_time"
+
+    ],
+    "keys" : [
+        "shrinkage_id" , "people_id"
+    ]
 }

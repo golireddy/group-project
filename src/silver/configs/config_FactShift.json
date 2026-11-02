@@ -1,38 +1,31 @@
 
 {
     "source": {
-        "source_table": "group_project.bronze.dim_county",
-        "source_name": "dim_county"
+        "source_table": "group_project.bronze.fact_shift",
+        "source_name": "fact_shift"
     },
 
     "target": {
-        "target_table": "group_project.silver.dim_county"
+        "target_table": "group_project.silver.fact_shift"
     },
 
     "cast_columns": {
+        "shift_id": "int",
+        "people_id": "int",
         "county_id": "int",
-        "county_name": "string",
-        "region": "string",
-        "country": "string",
-        "population_band": "string",
-        "urban_rural": "string"
-    },
-
-    "drop_columns": [
-        "source_file",
-        "current_timestamp"
-    ],
-
-    "rename_column": {
-        "urban_rural": "area_type"
+        "scheduled_start" : "timestamp",
+        "scheduled_end" : "timestamp"
     },
 
     "select_columns": [
+        "shift_id",
+        "people_id",
         "county_id",
-        "county_name",
-        "region",
-        "country",
-        "population_band",
-        "area_type"
+        "scheduled_start",
+        "scheduled_end"
+
+    ],
+    "keys" : [
+        "shift_id" , "people_id"
     ]
 }
