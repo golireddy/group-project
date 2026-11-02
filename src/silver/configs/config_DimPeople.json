@@ -1,0 +1,16 @@
+{
+  "source" :{
+    "source_table":"group_project.bronze.dim_people"
+  },
+  "columns":{
+    "people_id":"people_id",
+    "first_name":"first_name",
+    "surname":"surname",
+    "employee_name":"employee_name",
+    "job_role":"job_role",
+    "employment_type":"employment_type",
+    "team":"team",
+    "hire_date":"hire_date"
+
+  }
+}

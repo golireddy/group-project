@@ -1,0 +1,12 @@
+{
+  "source":{
+    "source_path":"group_project.bronze.dim_shirnk"
+  },
+  "columns":{
+    "shrinkage_type_id":"shrinkage_type_id",
+    "shrinkage_type":"shrinkage_type",
+    "category":"category",
+    "is_paid":"is_paid",
+    "is_planned":"is_planned"
+  }
+}
