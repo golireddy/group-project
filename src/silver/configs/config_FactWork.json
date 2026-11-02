@@ -1,0 +1,44 @@
+
+{
+    "source": {
+        "source_table": "group_project.bronze.fact_work",
+        "source_name": "fact_work"
+    },
+
+    "target": {
+        "target_table": "group_project.silver.fact_work"
+    },
+
+    "cast_columns": {
+        "work_id": "int",
+        "people_id": "int",
+        "county_id": "int",
+        "status": "string",
+        "cancellation_id": "int",
+        "scheduled_start" : "timestamp",
+        "scheduled_end" : "timestamp"
+    },
+
+    "drop_columns": [
+        "source_file",
+        "current_timestamp"
+    ],
+
+    "rename_column": {
+        "status": "job_status"
+    },
+
+    "select_columns": [
+        "work_id",
+        "people_id",
+        "county_id",
+        "job_status",
+        "cancellation_id",
+        "scheduled_start",
+        "scheduled_end"
+
+    ],
+    "keys" : [
+        "work_id" , "people_id"
+    ]
+}
