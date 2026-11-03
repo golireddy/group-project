@@ -27,5 +27,8 @@
     ],
     "keys" : [
         "shift_id" , "people_id"
-    ]
+    ],
+   "scd": {
+        "type": 2
+    }
 }
