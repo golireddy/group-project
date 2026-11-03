@@ -12,5 +12,8 @@
     "team":"team",
     "hire_date":"hire_date"
 
-  }
+  },
+   "target": {
+        "target_table": "group_project.silver.dim_people"
+    }
 }

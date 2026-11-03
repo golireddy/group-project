@@ -10,5 +10,8 @@
     "is_customer_driven":"is_customer_driven",
     "severity":"severity"
 
-  }
+  },
+  "target": {
+        "target_table": "group_project.silver.dim_cancellationReason"
+    }
 }

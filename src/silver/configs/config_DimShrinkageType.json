@@ -8,5 +8,8 @@
     "category":"category",
     "is_paid":"is_paid",
     "is_planned":"is_planned"
-  }
+  },
+  "target": {
+        "target_table": "group_project.silver.dim_shrinkage_type"
+    }
 }
