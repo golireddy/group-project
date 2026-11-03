@@ -1,0 +1,6 @@
+{
+  "source":{
+    "source_table":"group_project.bronze.factshrinkage",
+    "source_name":"Fact_Shrinkae"
+  }
+}

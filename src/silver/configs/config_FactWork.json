@@ -1,7 +1,7 @@
 
 {
     "source": {
-        "source_table": "group_project.bronze.fact_work",
+        "source_table": "group_project.bronze.factwork",
         "source_name": "fact_work"
     },
 

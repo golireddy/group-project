@@ -1,6 +1,6 @@
 {
     "source": {
-        "source_table": "group_project.bronze.fact_shrinkage",
+        "source_table": "group_project.bronze.factshrinkage",
         "source_name": "fact_shrinkage"
     },
 

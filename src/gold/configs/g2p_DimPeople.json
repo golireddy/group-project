@@ -1,0 +1,6 @@
+{
+  "source":{
+    "source_table":"group_project.bronze.dim_people",
+    "source_name":"Dim_People"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "source":{
+    "source_table":"group_project.bronze.factshift",
+    "source_name":"Fact_Shift"
+  }
+}

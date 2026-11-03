@@ -1,0 +1,6 @@
+{
+  "source":{
+    "source_table":"group_project.bronze.dim_shirnk",
+    "source_name":"Dim_ShrinkageType"
+  }
+}

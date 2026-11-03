@@ -1,0 +1,6 @@
+{
+  "source":{
+    "source_table":"group_project.bronze.dim_county",
+    "source_name":"Dim_County"
+  }
+}
